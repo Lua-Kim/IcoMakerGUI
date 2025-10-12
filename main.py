@@ -7,7 +7,7 @@ from ico_generator import ICOGenerator
 class ICOMakerGUI:
     def __init__(self, root):
         self.root = root
-        self.root.title("ICO Maker GUI v0.2")  # version
+        self.root.title("ICO Maker GUI v0.2")  # test
         self.root.geometry("800x600")
         self.image = None
         self.ico_gen = ICOGenerator()
